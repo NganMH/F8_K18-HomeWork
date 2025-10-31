@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Phòng thí nghiệm</title>
+</head>
+<body>
+    <ul>
+        <li><a href="../index.html">Trang chủ</a></li>
+        <li><a href="./courses.html">Danh sách khóa học</a></li>
+        <li><a href="./submit.html">Trang gửi form</a></li>
+        <li><a href="./contact.html">Liên hệ</a></li>
+        <li><a href="./about.html">Giới thiệu</a></li>
+    </ul>
+    <h1>Phòng thí nghiệm</h1>
+    <form action="lab.html" method="GET">
+        <label for="q">Tìm kiếm:</label>
+        <input id="q" type="text" name="q" placeholder="Tìm kiếm">
+        <p>Trình độ</p>
+        <label for="Beginner">Beginner</label>
+        <input id="Beginner" type="checkbox" name="level[]" value="Beginner">
+        <label for="Intermediate">Intermediate</label>
+        <input id="Intermediate" type="checkbox" name="level[]"value="Intermediate">
+        <label for="Advanced">Advanced</label>
+        <input id="Advanced" type="checkbox" name="level[]" value="Advanced">
+        <p>Hình thức</p>
+        <input id="Online" type="radio" name="mode" value="Online">
+        <label for="Online">Online</label>
+        <input id="Offline" type="radio" name="mode" value="Offline">
+        <label for="Offline">Offline</label>
+        <p>Danh mục</p>
+        <select name="category" id="category">
+            <option value="Fontend">Fontend</option>
+            <option value="Backend">Backend</option>
+            <option value="DevOps">DevOps</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Tìm kiếm">
+        <input type="reset" value="Reset">    
+    </form>
+
+</body>
+</html>
