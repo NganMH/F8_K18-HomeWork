@@ -76,8 +76,7 @@ body{
     width: 20rem;
     height: 20rem;
     position: fixed;
-    left: 0;
-    right: 0;
+    inset: 0;
     margin: auto ;
     background-color: #fff;
     padding: 2rem;
